@@ -1,38 +1,251 @@
-.App {
+.fin{
+  background-image: url("../src/wall.jpg");
+  height: 700px;
+  opacity: 0.9;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  
+ 
+}
+.logo{
+  font-size: 27px!important;
+  font-weight: bold;
+  margin-top: 4px;
+}
+.list{
+  color: aliceblue!important;
+  font-size: 18px;
+  padding: 0 10px 0 10px;
+}
+.background{
+  background-color: black;
+}
+.stick{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+}
+.head{
+  font-size: 60px;
+  color: aliceblue;
+  font-weight: 700;
+}
+.work{
+  margin-top: 150px!important;
+}
+.fit{
+  color: 	#FF5733 ;
+}
+.boxes{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  align-items: center;
   text-align: center;
+  /* margin-top: 100px; */
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.box1,
+.box2,
+.box3{
+  
+  width: 400px;
+  height: 280px;
+  background-color: black;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.bhead{
+  font-weight: bold;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  color: 	#FF5733 ;
+}
+.main{
+  color: aliceblue;
+  margin-top: 70px;
+}
+.para{
+  font-size: 15px;
+}
+.fback{
+  width: 100%;
+  height: 500px;
+  background-color: black;
+  color: aliceblue;
+}
+.grey{
+  background-color: rgb(32, 31, 31);
+}
+.bortop{
+  border-top: 5px solid grey;
+}
+.borbot{
+  border-bottom: 2px solid grey;
+}
+/* .fdetail{
+  width: 50px;
+  height: 600px;
+  background-color: rgb(46, 49, 49);
+  border: 2px solid wheat;
+  
+} */
+.mar{
+  margin-top: 50px;
+}
+.icon{
+  padding: 7px;
+}
+.blu{
+  color: rgb(59, 59, 248);
+}
+.flas{
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.flastwo{
+  text-align:right;
+  position: relative;
+  bottom: 20px;
+}
+.itwo{
+  padding: 10px;
+ 
+}
+@media (min-width: 0px) and (max-width: 700px) {
+  .fback{
+    height: 1350px;
   }
+  
+}
+@media (min-width: 700px) and (max-width: 1200px) {
+  .fback{
+    height: 1150px;
+  }
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.aboutbg{
+  background-image: url("../src/about.jpg");
+  height: 800px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+ 
+}
+.babout{
+  margin-top: 10px;
+  background-color: #B22222!important;
+  color: aliceblue !important;
+}
+@media (min-width: 0px) and (max-width: 450px) {
+  .aboutbg{
+    height: 1000px;
+  }
+  .pabout{
+    font-size: 15px;
+   }
+  
+}
+@media (min-width: 0px) and (max-width: 1000px) {
+  .aboutbg{
+    height: 1200px;
+   
+  }
+  
+}
+
+
+.hgym{
+  color: #B22222;
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+
+.pabout{
+  padding: 10px 0 10px 0;
+  color: aliceblue;
+}
+.pbg{
+  background-color: black;
+  /* opacity: 0.4; */
+  height: auto;
+  width: 100%;
+}
+.outlet{
+  text-align: center;
+  color: aliceblue;
+  border-bottom: 3px solid red;
+}
+.box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.dream{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  width: 32.5%;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.cbg{
+  background-image: url("../src/contact.jpg");
+  height: 900px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* display: flex;
+  justify-content: center; */
+}
+@media (min-width: 0px) and (max-width: 769px) {
+  .cbg{
+    height: 1200px;
+   }
+   
+  
+}
+.cbox{
+  margin-top: 80px!important;
+  position: relative;
+  width: 800px;
+  height: 700px;
+  border: 5px solid white;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  background-color: black
+  /* opacity: 0.5; */
+}
+@media (min-width: 0px) and (max-width: 769px) {
+  .cbox{
+    height: 1100px;
+  }
+   
+  
+}
+.ch1{
+  text-align: center;
+  color: aliceblue;
+  margin-top: 10px;
+  font-weight: 400;
+  border-bottom: 2px solid red;
+  opacity: 0.9;
+}
+label{
+  color: aliceblue;
+  font-size: 17px;
+}
+.msg{
+  height: 200px!important;
+}
+form{
+  margin-top: 20px!important;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
